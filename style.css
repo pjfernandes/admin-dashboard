@@ -6,4 +6,10 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: rgb(216, 223, 229);
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-template-areas: "left-bar right-content";
+  padding: 0;
+  margin: 0;
+  height: 100vh;
 }

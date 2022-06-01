@@ -1,8 +1,6 @@
 .container {
   margin-top: 10px;
   background-color: rgb(216, 223, 229);
-  position: absolute;
-  left: 0;
   display: flex;
   margin: 15px;
 }
@@ -19,7 +17,7 @@
 .item {
   background-color: white;
   height: 200px;
-  width: 220px;
+  width: 200px;
   border-radius: 5px;
   border-left: solid 5px orange;
   box-shadow: 0 0 15px rgb(0 0 0 / 30%)
