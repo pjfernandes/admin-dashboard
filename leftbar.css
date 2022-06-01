@@ -1,11 +1,11 @@
 .left-bar {
   background-color: rgba(0, 157, 255, 0.78);
   color: white;
-  height: 100vh;
+  height: 100%;
   min-width: 200px;
   max-width: 25vw;
   font-weight: bolder;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
 }
@@ -24,6 +24,7 @@
 .left-bar ul > li:hover {
   color: blue;
   cursor: pointer;
+  transition: .5s ease;
 }
 
 .title {

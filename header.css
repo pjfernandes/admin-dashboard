@@ -1,6 +1,6 @@
 .right-content {
   background-color: white;
-  border-bottom: solid 2px lightgray;
+  border-bottom: solid 1px rgb(24, 23, 23);
   position: absolute;
   top: 0;
   left: 200px;
@@ -84,6 +84,12 @@ input {
   margin-right: 10px;
 }
 
+.header-right i:hover {
+  color: darkgray;
+  cursor: pointer;
+
+}
+
 .header-right img {
   margin: 10px;
   height: 50px;
@@ -124,5 +130,6 @@ input {
 }
 
 .btn:hover {
-  background-color: rgba(0, 157, 255, 0.663);
+  background-color: rgba(181, 220, 244, 0.663);
+  transition: .5s ease;
 }

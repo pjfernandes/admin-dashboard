@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url("leftbar.css");
 @import url("header.css");
+@import url("container.css");
 
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: rgb(216, 223, 229);
 }
