@@ -1,0 +1,128 @@
+.right-content {
+  background-color: white;
+  border-bottom: solid 2px lightgray;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  width: 84.5vw;
+}
+
+.header-left {
+  width: 55%;
+  margin: 10px;
+}
+
+input {
+  width: 100%;
+  border-radius: 6px;
+  border: solid 0px lightgray;
+  padding: 5px;
+  background-color: rgb(216, 223, 229);
+}
+
+.hi-there {
+  margin-top: 5px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: left;
+}
+
+.search {
+  display: flex;
+  justify-content: left;
+}
+
+.search > i {
+  padding-top: 5px;
+  padding-right: 5px;
+  color: lightgray;
+}
+
+.search > i:hover {
+  color: darkgray;
+  cursor: pointer;
+}
+
+.header img {
+  height: 60px;
+  border-radius: 200px;
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+.header p {
+  font-size: 14px;
+  color: darkgray;
+}
+
+.name {
+  font-weight: bolder;
+  font-size: 18px;
+  color: black;
+}
+
+.header-left {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-right {
+  padding-top: 10px;
+  padding-right: 20px;
+  margin-right: 40px;
+}
+
+.header-right i {
+  color: lightgray;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.header-right img {
+  margin: 10px;
+  height: 50px;
+  margin-left: 10px;
+}
+
+.account {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.account span {
+  font-size: 12px;
+  font-weight: bolder;
+  margin-top: 30px;
+}
+
+.buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: rgba(0, 157, 255, 0.78);
+  color: white;
+  font-weight: bolder;
+  padding: 6px;
+  font-size: 12px;
+  border-radius: 20px;
+  text-decoration: none;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin: 5px;
+
+}
+
+.btn:hover {
+  background-color: rgba(0, 157, 255, 0.663);
+}
